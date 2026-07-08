@@ -6,7 +6,7 @@
 **Legitimate Domain (Impersonated):** ellipal.com  
 **Attack Type:** Domain typosquatting
 
-The attacker registered "ellipalwallet.io" (using .io TLD instead of .com) as a domain typosquatting technique, banking on users not carefully verifying the domain before downloading software. The visual similarity between ellipalwallet.io and the legitimate ellipal.com is intentional—users may quickly see "ellipal" and "wallet" and trust the domain.
+The attacker registered "ellipalwallet.io" (using .io TLD instead of .com) as a domain typosquatting technique, banking on users not carefully verifying the domain before downloading software. The visual similarity between ellipalwallet.io and the legitimate ellipal.com is intentional, users may quickly see "ellipal" and "wallet" and trust the domain.
 
 ## Malicious URL
 
