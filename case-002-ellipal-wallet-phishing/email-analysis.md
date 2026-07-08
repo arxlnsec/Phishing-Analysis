@@ -33,4 +33,4 @@ The subject is designed to make cryptocurrency users believe ELLIPAL has release
 
 ## Verdict
 
-Confirmed spoofing attack using compromised/abused legitimate email infrastructure (BIGLOBE). The attacker leveraged a legitimate email service to make the phishing email appear credible and bypass email authentication filters.
+Confirmed spoofing attack using a legitimate email infrastructure (BIGLOBE). The attacker leveraged a legitimate email service to make the phishing email appear credible and bypass email authentication filters.
