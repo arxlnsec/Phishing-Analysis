@@ -2,7 +2,7 @@
 
 ## Sender Analysis
 
-The email falsely claims to originate from "ELLIPAL WALLET" but was actually sent from xa6yw6@bma.biglobe.ne.jp, an email address registered with BIGLOBE, a Japanese Internet Service Provider owned by KDDI Corporation. The sender uses a legitimate email service infrastructure, which explains why SPF, DKIM, and DMARC authentication checks pass—BIGLOBE's legitimate email servers are properly configured for these protocols. However, this is a case of email service abuse where the attacker registered an account with a legitimate provider to bypass security filters.
+The email falsely claims to originate from "ELLIPAL WALLET" but was actually sent from xa6yw6@bma.biglobe.ne.jp, an email address registered with BIGLOBE, a Japanese Internet Service Provider owned by KDDI Corporation. The sender uses a legitimate email service infrastructure, which explains why SPF, DKIM, and DMARC authentication checks pass. BIGLOBE's legitimate email servers are properly configured for these protocols. However, this is a case of email service abuse where the attacker registered an account with a legitimate provider to bypass security filters.
 
 The resolved host (mta-snd-e09.biglobe.ne.jp) confirms the email was sent through BIGLOBE's mail transfer agents. There is no legitimate connection between BIGLOBE/KDDI Corporation and ELLIPAL Wallet, confirming this is a spoofed sender impersonating an official ELLIPAL communication. The use of a legitimate Japanese email service combined with sender spoofing creates a convincing appearance of legitimacy, increasing the likelihood that recipients will trust the email and click the malicious link.
 
