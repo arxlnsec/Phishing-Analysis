@@ -43,15 +43,13 @@ Importance: high
 - **SPF:** PASS (sender IP 13.84.221.57 designated as permitted sender)
 - **DKIM:** NONE (message not signed)
 - **DMARC:** PERMERROR (permanent error in DMARC configuration)
-- **Sender Score:** Questionable (passes SPF due to Microsoft infrastructure abuse)
 
 ## Campaign Characteristics
-- **Target:** Undisclosed recipients (mass mailing)
+- **Target:** Undisclosed recipient
 - **Recipient Count:** Potentially hundreds/thousands
-- **Message Priority:** High (X-Priority: 1)
 - **Subject Line:** Holiday/seasonal theme (exploits Christmas shopping season)
 - **Email Type:** HTML email with embedded images and links
 - **Message ID:** Randomized (gpsrxor.nelunp.dmpa@plrrfoyh.com)
 
 ## Recommendation
-Block sender domain wlodmbvsouyasilha.com and return domain return@wlodmbvsouyasilha.com at email gateway. Block access to thempresident.com at network level (though domain is currently offline). Monitor for similar holiday-themed phishing campaigns. Report Microsoft IP abuse (13.84.221.57) to Microsoft for investigation.
+Block sender domain wlodmbvsouyasilha.com at email gateway. Block access to thempresident.com at network level (though domain is currently offline). Monitor for similar holiday-themed phishing campaigns. Report Microsoft IP abuse (13.84.221.57) to Microsoft for investigation.
