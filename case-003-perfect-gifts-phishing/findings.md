@@ -2,7 +2,7 @@
 
 ## Verdict
 
-This is a mass phishing campaign leveraging holiday shopping season to trick users into clicking malicious links. The attacker uses generic holiday-themed branding ("Perfect Gifts Of 2025") to avoid specific brand impersonation detection, making this a high-volume campaign designed to maximize delivery and user engagement. The malicious domain (thempresident.com) was confirmed by multiple security vendors as malicious/malware. The campaign demonstrates sophisticated evasion techniques including abuse of Microsoft infrastructure, embedding malicious URLs in images to evade email filtering, and heavy parameter obfuscation. The domain is now offline, indicating successful security community response and campaign disruption.
+This is a mass phishing campaign leveraging holiday shopping season to trick users into clicking malicious links. The attacker uses generic holiday-themed branding ("Perfect Gifts Of 2025") to avoid specific brand impersonation detection, making this a high-volume campaign designed to maximize delivery and user engagement. The malicious domain (thempresident.com) was confirmed by multiple security vendors as malicious/malware. The campaign demonstrates sophisticated evasion techniques including abuse of Microsoft infrastructure, embedding malicious URLs in images/headings to evade email filtering, and heavy parameter obfuscation. The domain is now offline, indicating successful security community response and campaign disruption.
 
 ## Key Findings
 
@@ -14,11 +14,7 @@ This is a mass phishing campaign leveraging holiday shopping season to trick use
 - All user engagement points (images, headings) contain embedded malicious URLs
 - URLs use HTTP (unencrypted) and heavy parameter obfuscation for evasion
 - VirusTotal confirms malicious detection by 7+ vendors (malware category)
-- Campaign demonstrates understanding of email filter evasion techniques
 - Malicious domain now offline (campaign successfully disrupted)
-- "To" field shows undisclosed recipients, confirming mass mailing
-- Email marked as High Priority and Importance (social engineering tactic)
-- No specific targeting or personalization (spray-and-pray approach for maximum volume)
 
 ## Defense Actions
 
